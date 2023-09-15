@@ -1,13 +1,6 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-let random = prompt('choose passwork length 8-128');
-let text;
-if (random== "8" || random =="128") {
-  text= "cancelled prompt.";
-}else{
-  text=""
-}
 
 function generatePassword() {
  let pass='';
@@ -31,9 +24,12 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
-}
+  let random = prompt('choose passwork length 8-128');
+  let text;
+  if (random== "8" || random =="128") {
+    text= "cancelled prompt.";
+  }
+  }
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-onclick.generateBtn.addEventListener("click", prompt)
