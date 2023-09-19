@@ -15,3 +15,7 @@ this project can solve the issue of creating a unique password that will be secu
 
 i learned from doing this project that javascript is really hard for me and that i need a lot of work with it theres a lot of times where im trying to find ways around things and trying to troubleshoot my code but i keep running into roadblocks
 
+https://shawnclarke21.github.io/random-pass-gen/
+
+https://github.com/Shawnclarke21/random-pass-gen
+
